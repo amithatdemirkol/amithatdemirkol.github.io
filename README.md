@@ -1,3 +1,1 @@
 # Hi, I'm Ahmet Mithat! I make short films on [Youtube](https://www.youtube.com/@yucekuerta6791)!
-
-![ghreadme]([https://user-images.githubusercontent.com/78777681/163073935-1774f337-0d38-4aa4-bdfe-c5b0cfdff234.PNG](https://www.google.com/imgres?imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2Fytc%2FAL5GRJVp3ZCIO7IZ3SBDqHQB8mZAMQ0RIQoOqur0-aXSNw%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCVls0VM6fEELWvEvhFnbzbQ&tbnid=ajpkg3kaqwTdpM&vet=12ahUKEwjL6M3vzL_9AhWi_bsIHdCUAu8QMygAegQIARAl..i&docid=oPu_3QrGhgeS5M&w=900&h=900&itg=1&q=yuce%20kuerta&ved=2ahUKEwjL6M3vzL_9AhWi_bsIHdCUAu8QMygAegQIARAl))
