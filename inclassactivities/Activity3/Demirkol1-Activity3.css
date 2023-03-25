@@ -6,4 +6,7 @@
 	border-width:2px; 
 	background-color:gray; 
 	color:white;
+	position: absolute;
+	left: 1%;
+	top: 1%;
 }
