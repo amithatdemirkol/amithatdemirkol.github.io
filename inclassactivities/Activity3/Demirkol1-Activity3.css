@@ -5,7 +5,7 @@
   border-width: 2px;
   background-color: gray;
   color: white;
-  position: fixed;
+  position: absolute;
   top: 8px;
   left: 8px;
 }
