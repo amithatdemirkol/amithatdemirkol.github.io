@@ -5,19 +5,21 @@
   border-width: 2px;
   background-color: gray;
   color: white;
-  position: absolute;
+  position: fixed;
   top: 8px;
   left: 8px;
 }
 
-img {
+.logo img {
   width: 250px;
+  height: 100px;
 }
 
 .content {
   width: 70%;
   position: relative;
   margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .image {
@@ -28,15 +30,6 @@ img {
   float: left;
   padding-right: 15px;
   padding-bottom: 10px;
-}
-
-.main {
-  position: relative;
-  width: 70%;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
-  margin-top: 50px;
-  margin-left: 10px;
 }
 
 .head {
