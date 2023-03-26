@@ -10,37 +10,3 @@
   	top: 8px;
   	left: 16px
 }
-
-.header
-{
-	position: relative;
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-.head
-{	
-	text-align: center;
-}
-
-.logo
-{	
-	float: left;	
-}
-
-.content .image img
-{	
-	float: left;
-	width: 250px;
-	margin-right: 15px;
-}
-
-.content
-{	
-	position: relative;
-	margin-left: 15%;
-	margin-right: 15%;
-	text-align: justify;
-	clear: both;
-	padding: 50px;
-}
