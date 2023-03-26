@@ -1,5 +1,5 @@
-/* Advertisement */
-.advertisement {
+.advertisement
+{
 	width:100px;
 	height:150px; 
 	border-color:black;
@@ -7,8 +7,9 @@
 	background-color:gray; 
 	color:white;
 	position: absolute;
-	left: 8px;
-	top: 8px;
+	left: 20px;
+	top: 20px;
+	
 }
 img{
 	width: 250px;
