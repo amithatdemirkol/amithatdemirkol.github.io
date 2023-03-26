@@ -15,26 +15,26 @@
 	height: 100px;
   }
   
-  .content {
+.content {
 	width: 70%;
 	position: relative;
 	margin: 0 auto;
 	font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .image img {
-	  width: 250px;
-	  float:left;
-  }
-  
-.head {
-    text-align: center;
-    margin: auto;
-    top: 50px;
-    position: relative;
 }
   
-  .header {
+.image img {
+	width: 250px;
+	float:left;
+}
+  
+.head {
+    	text-align: center;
+    	margin: auto;
+    	top: 50px;
+    	position: relative;
+}
+  
+.header {
 	position: relative;
 	width: 70%;
 	left: 15%;
@@ -42,17 +42,24 @@
 	display: flex;
 	align-items: center;
   }
+.main 
+{
+    	position: relative;
+    	width: 70%;
+    	top: 10%;
+    	left: 5%;
+}
   
-  .logo {
+.logo {
 	float: left;
 	border: 50px;
 	margin-right: 10px;
-  }
+}
   
-  .header .logo img {
+.header .logo img {
 	margin-left: 130px;
-  }
+}
   
-  .title {
+.title {
 	margin-left: 100px;
-  }
+}
