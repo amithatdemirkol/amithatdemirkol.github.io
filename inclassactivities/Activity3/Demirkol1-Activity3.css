@@ -6,43 +6,60 @@
 	border-width:2px; 
 	background-color:gray; 
 	color:white;
-	position: absolute;
-  	top: 8px;
-  	left: 8px;
+	position:fixed;
+	top:1%;
+	left:1%;
 }
-.content .image img {
-	width: 250px;
- }
- .content {
-	width: 70%;
-	margin: 0 auto;
- }
- .content .image {
-	float: left;
-	padding-right: 15px;
-	padding-bottom: 10px;
- }
- .main{
-	margin-top: 50px;
-	font-size: larger;
-	margin-left: 10px ;
- }
-.head{
-	margin-top: 50px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 110px;
-}
-.header .logo img {
-	margin-left: 130px;
-}
+
+/*Header div is parent div for logo and title and centered*/
 .header {
-	display: flex;
-	align-items: center;
-  }
-title{
-	margin-left: 100px;
+	padding: 5%;
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	padding: 2%;
 }
+
+/*Logo is the first div inside header*/
 .logo {
-	margin-right: 10px;
+	float: left;
+}
+
+/*Image size has set */
+.logo img{
+	width: 250px;
+	height:100px
+}
+/*Content place is 70% of the page and text-size and font changed*/
+.content{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%;
+	font-size: large;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Koala image is the first and should be in the top left*/
+.image{
+	float: left;
+	padding-right: 2%;
+}
+
+/*Koala image width and height set*/
+.image img{
+	width: 250px;
+	height: 250px;
+}
+
+/*Footer part is done with margin and padding and copyright aligned in center*/
+.head{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+	text-align: center;
+
 }
