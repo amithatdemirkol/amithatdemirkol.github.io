@@ -27,10 +27,12 @@
 	  float:left;
   }
   
-  .head {
-	  text-align: center;
-	  margin: auto;
-  }
+.head {
+    text-align: center;
+    margin: auto;
+    top: 50px;
+    position: relative;
+}
   
   .header {
 	position: relative;
