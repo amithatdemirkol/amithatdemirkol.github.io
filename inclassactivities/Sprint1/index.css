@@ -1,0 +1,17 @@
+h2{
+    text-align: center;
+    color: rgb(204, 195, 195);
+  }
+  #row{
+    width: 1020px;
+    margin: auto;
+  }
+  .items{
+    padding: 20px;
+    float: left;
+    width: 300px;
+  }
+  img{
+    height: 375px;
+    width: 300px;
+  }
