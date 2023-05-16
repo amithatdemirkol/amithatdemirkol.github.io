@@ -1,0 +1,73 @@
+<!-- Ahmet Mithat Demirkol - 19050111047 -->
+<!-- Activity - 8 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 8 - Page</title>
+    <link rel="stylesheet" href="Demirkol-Activity8.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="Demirkol-Activity8.js"></script>
+</head>
+
+<body>
+    <form>
+        <table id="tablespecify">
+
+            <tr>
+                <td>
+                    <label for="PLanguage">What programming language do you know?</label>
+                </td>
+                <td>
+                    <!-- I used autocomplete function
+                        After writing one letter other options will appear  -->
+                    <input type="text" id="PLanguage" name="PLanguage" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="BDate">What is your birthday</label>
+                </td>
+                <td>
+                    <!--we get the data from jquery-->
+                    <input type="text" id="BDate" required><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email Address</label>
+                </td>
+                <td>
+                    <!--Mail address with one @ symbol-->
+                    <input type="email" id="email" required placeholder="Enter a valid email address">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="website">Website</label>
+                </td>
+                <td>
+                    <!--Url must start with "https?://"   -->
+                    <!--https://tryphp.w3schools.com/-->
+                    <input type="url" name="website" required placeholder="www" required pattern="https?://.+">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>

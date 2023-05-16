@@ -1,0 +1,13 @@
+/* Ahmet Mithat Demirkol - 19050111047
+   Activity - 8
+*/
+#tablespecify {
+    width: 25%;
+    margin: 2%;
+}
+
+table tr td input:invalid {
+    border: none;
+    outline: 2px solid red;
+    border-radius: 2px;
+}
