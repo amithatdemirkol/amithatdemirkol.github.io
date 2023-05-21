@@ -1,0 +1,142 @@
+<!-- Ahmet Mithat Demirkol - 19050111047 -->
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" type="text/css" href="jquery-ui.css" >
+    <script src="form.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a class="active" href="#">Contact Us</a></li>
+            <li><a href="customerComments.html">Customer Comments</a></li>
+        </nav>
+    </header>
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="form.js"></script>
+    <main>
+        <!-- Weather Widget -->
+        <div id="weatherContainer"></div>
+
+        <!-- Social Media Widget -->
+        <div id="socialMediaContainer"></div>
+
+        <!-- News Widget -->
+        <div id="newsContainer"></div>
+        </nav>
+    </header>
+    <script src="jQuery.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="form.js"></script>
+    <main>
+        <form>
+            <table id="uiTable">
+                <tr>
+                    <td>Topic</td>
+                    <td>
+                        <select id="topics" required>
+                            <option value="">Select a topic</option>
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Report a Vulnerability">Report a Vulnerability</option>
+                            <option value="Request a Penetration Test">Request a Penetration Test</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Name*</td>
+                    <td><input id="name" type="text" name="name" required=""><br></td>
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    <td><input id="surname" type="text" name="surname"><br></td>
+                </tr>
+                <tr>
+                    <td>E-mail Address*</td>
+                    <td><input type="email" id="email" required placeholder="Enter a valid email address"></td>
+                </tr>
+                <tr>
+                    <td>Birthdate</td>
+                    <td><input type="text" id="birthdate" required placeholder="Enter a valid your birthdate"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input type="text" id="country" required placeholder="Enter a valid your country"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number*</td>
+                    <td><input type="tel" id="phone" required pattern="[0-9]{10}" placeholder="Enter a 10-digit phone number"></td>
+                </tr>
+                <tr>
+                    <td>Detail Message*</td>
+                    <td><textarea id="message" name="message" required placeholder="Please describe the problem in detail" oninput="updateText()"></textarea><br></td>
+                </tr>
+                <tr>
+                    <td>Preferred Method of Contact*</td>
+                    <td id="contact-method">
+                        <input type="radio" id="emailRadio" name="contact-method" value="email" required>
+                        <label for="emailRadio">Email</label><br />
+                        <input type="radio" id="phoneRadio" name="contact-method" value="phone" required>
+                        <label for="phoneRadio">Phone</label><br />
+                        <input type="radio" id="bothRadio" name="contact-method" value="both" required>
+                        <label for="bothRadio">Both of them</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Submit" id="submit-btn" onclick="giveAlert()"></td>
+                </tr>
+            </table>
+        </form>
+        
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>If we've been hacked, please let us know. <a href="https://www.fbi.gov/investigate/cyber">HELP</a> link.</p>
+        </section>
+
+        <section>
+            <p> <big><strong><em> Because </em></strong></big>In today's digital age, websites are more vulnerable to hacking attempts than ever before. With the increasing use of online services, social media, and e-commerce platforms, there is a growing need for online security. Cybercriminals are always looking for ways to exploit weaknesses in websites and gain access to sensitive data such as personal information, financial data, and login credentials. When a website is hacked, it not only poses a risk to the site owner but also to the users who visit the site.
+                The first sign of a hacked website is usually a change in the appearance or functionality of the site. For example, you may notice that the site is loading slower than usual or that certain links are not working correctly. In some cases, the site may be completely inaccessible. Other signs of a hacked website include strange pop-ups, phishing scams, and redirects to other sites.
+                If you suspect that a website has been hacked, it's important to take immediate action. The longer the website remains compromised, the greater the risk to the site owner and its users. The first thing you should do is report the hack to the site owner.
+                Reporting a hack can be done in several ways. One option is to contact the website's customer support team. Most websites have a customer support system in place that allows users to report issues with the site. This may include a live chat feature, a support ticket system, or a phone number to call.
+                Another option is to reach out to the site owner directly. This can be done by sending an email to the site owner's email address. You can usually find this information on the site's "Contact Us" page or in the site's terms and conditions.
+                When reporting a hack, it's important to provide as much detail as possible about the issue. This may include a description of the problem, any error messages you encountered, and screenshots of the issue. You should also provide any other relevant information that may help the site owner diagnose the issue and take appropriate action.
+                Once you have reported the hack, the site owner should take immediate action to fix the issue. This may involve resetting passwords, removing malicious code from the site, or even rebuilding the site from scratch. The site owner may also need to contact their hosting provider or other third-party services to help resolve the issue.
+                In some cases, the site owner may not be aware that their site has been hacked. This is especially common for small businesses or individuals who may not have the resources to regularly monitor their site for security issues. If you suspect that a site has been hacked and the site owner is not aware of the issue, it's important to report it to them as soon as possible.
+                Reporting a hack not only helps protect the website and its users, but it also helps raise awareness about the importance of online security. By taking action to report a hack, you are helping to promote a safer and more secure online environment.
+                In conclusion, if you notice that a website has been hacked, it's crucial to report it to the site owner as soon as possible. This can be done by reaching out to the website's customer support or by sending an email to the site owner directly. Reporting a hack can help the site owner take immediate action to fix the issue and prevent further damage to the site and its users. By working together to promote online security, we can help protect ourselves and others from the dangers of cybercrime.
+            </p>
+        </section>
+        
+    </main>
+    <footer>
+        <center>Copyright 2023 - Written by Ahmet Mithat Demirkol </center>
+    </footer>
+
+    <script>
+        function giveAlert() {
+            alert("Thank you for submitting the form! We will get back to you soon.");
+        }
+
+        window.onload = function() {
+            setTimeout(function() {
+                alert("Welcome to our website!");
+            }, 3000);
+            
+            setTimeout(function() {
+                alert("Don't forget to follow us on social media!");
+            }, 6000);
+            
+            setTimeout(function() {
+                alert("Check out our latest news and updates!");
+            }, 9000);
+        };
+    </script>
+</body>
+</html>
