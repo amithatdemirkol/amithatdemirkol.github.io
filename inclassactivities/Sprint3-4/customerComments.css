@@ -1,0 +1,26 @@
+/* Ahmet Mithat Demirkol - 19050111047 */
+.row{
+  width: 1020px;
+  margin: auto;
+  height: 300px;
+  text-align:justify;
+}
+img{
+  height: 200px;
+  width: 250px;
+  border-radius: 25px;
+}
+.img{
+  padding: 20px;
+  float: left;
+  width: 300px;
+}
+.text{
+  padding: 20px;
+  float: left;
+  width: 400px;
+}
+section{
+    text-align:justify;
+    color:rgb(0, 0, 0);
+}
