@@ -1,0 +1,45 @@
+{
+    "categories": [
+      {
+        "name": "A1: Injection",
+        "description": "Injection attacks occur when untrusted data is sent to an interpreter as part of a command or query. The attacker's hostile data tricks the interpreter into executing unintended commands or accessing unauthorized data."
+      },
+      {
+        "name": "A2: Broken Authentication",
+        "description": "Broken authentication occurs when an attacker can compromise passwords, session tokens, or other credentials to assume the identity of a legitimate user."
+      },
+      {
+        "name": "A3: Sensitive Data Exposure",
+        "description": "Sensitive data exposure occurs when an application fails to adequately protect sensitive information, such as credit card numbers, usernames, passwords, or other personally identifiable information."
+      },
+      {
+        "name": "A4: XML External Entities (XXE)",
+        "description": "XXE vulnerabilities occur when an application processes XML input from untrusted sources without proper validation or disabling external entity references. This can lead to disclosure of internal files, denial of service, or server-side request forgery."
+      },
+      {
+        "name": "A5: Broken Access Control",
+        "description": "Broken access control vulnerabilities allow attackers to bypass authorization and access resources or perform actions that should be restricted. This can result in unauthorized information disclosure, modification, or deletion."
+      },
+      {
+        "name": "A6: Security Misconfiguration",
+        "description": "Security misconfiguration occurs when an application or its components are configured in an insecure manner, allowing attackers to exploit known vulnerabilities or gain unauthorized access to sensitive data."
+      },
+      {
+        "name": "A7: Cross-Site Scripting (XSS)",
+        "description": "Cross-Site Scripting vulnerabilities occur when an application allows untrusted data to be included in web pages, leading to the execution of malicious scripts by users' browsers. This can result in theft of sensitive information, defacement of websites, or session hijacking."
+      },
+      {
+        "name": "A8: Insecure Deserialization",
+        "description": "Insecure deserialization vulnerabilities occur when an application deserializes untrusted data without proper validation, allowing attackers to execute arbitrary code or perform attacks such as replay attacks, injection attacks, or privilege escalation."
+      },
+      {
+        "name": "A9: Using Components with Known Vulnerabilities",
+        "description": "Using components with known vulnerabilities refers to the practice of including software components, such as libraries or frameworks, that contain known security vulnerabilities. Attackers can exploit these vulnerabilities to compromise the application."
+      },
+      {
+        "name": "A10: Insufficient Logging & Monitoring",
+        "description": "Insufficient logging and monitoring can prevent timely detection and response to security incidents. Without adequate logging and monitoring, attackers can operate undetected, and incidents may go unnoticed or unaddressed."
+      }
+    ]
+  }
+  
