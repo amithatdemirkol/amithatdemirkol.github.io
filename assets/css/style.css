@@ -1,0 +1,164 @@
+/* Genel Ayarlar */
+body {
+                            transition: background-color 0.3s ease, color 0.3s ease;
+                        }
+                            /* 🌙 dark mode */
+                            body.dark-mode {
+                                background-color: #121212;
+                                color: #ffffff;
+                            }
+                            body.light-mode {
+                                background-color: #ffffff;
+                                color: #000000;
+                            }
+                            /* 🟡 navbar */
+                            .navbar {
+                                background: rgba(0, 0, 0, 0.7);
+                                transition: background 0.3s, color 0.3s;
+                            }
+                            .navbar.scrolled {
+                                background: #000;
+                            }
+                            /* make navbar appear in dark mode */
+                            .dark-mode .navbar {
+                                background: rgba(255, 255, 255, 0.1); 
+                            }
+                            .dark-mode .navbar a {
+                                color: #ffffff !important; 
+                            }
+                            /* Footer */
+                        .footer {
+                            position: relative;
+                            bottom: 0;
+                            width: 100%;
+                            background-color: #212529;
+                            color: #fff;
+                            padding: 20px;
+                        }
+                        .footer .social-icons a {
+                            color: #fff;
+                            font-size: 24px;
+                            margin: 0 10px;
+                            transition: 0.3s;
+                        }
+                        .footer .social-icons a:hover {
+                            color: #0d6efd; 
+                        }
+                            /* hero section */
+                            .hero {
+                                height: 100vh;
+                                background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: center;
+                                color: white;
+                            }
+                            /* ✅ white mode and dark mode text color correction */
+                            .hero h1, .hero p {
+                                font-size: 3rem;
+                                transition: color 0.3s ease-in-out;
+                            }
+                            .hero p {
+                                font-size: 1.5rem;
+                            }
+                            body.light-mode .hero h1, 
+                            body.light-mode .hero p {
+                                color: #000000; 
+                            }
+                            body.dark-mode .hero h1, 
+                            body.dark-mode .hero p {
+                                color: #ffffff; 
+                            }
+                            .blog-text {
+                                color: #ffcc00; 
+                                font-weight: bold;
+                                font-size: 1rem;
+                                text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.3);
+                            }
+                            /* projects page cards */
+                            .project-card {
+                                transition: transform 0.3s ease-in-out;
+                            }
+                            .project-card:hover {
+                                transform: scale(1.1);
+                            }
+                            .kuerta-logo {
+                                width: 100%; 
+                                max-width: 400px; 
+                                height: auto; 
+                                display: block;
+                                margin: 20px auto;
+                                filter: drop-shadow(3px 5px 7px rgba(0, 0, 0, 0.5));
+                            }
+                            /* kuerta img sett. */
+                            .kuerta-logo {
+                                width: 100%;
+                                max-width: 400px;
+                                height: auto;
+                                display: block;
+                                margin: 20px auto;
+                                filter: drop-shadow(3px 5px 7px rgba(0, 0, 0, 0.5));
+                            }
+
+                            /* kuerta img for dark mode */
+                            body.dark-mode .kuerta-logo {
+                                content: url('assets/images/kuerta-2.png');
+                            }
+                            .tool-icon {
+                                width: 80px;
+                                height: 80px;
+                                margin: auto;
+                            }
+                            html {
+                                overflow-y: scroll; 
+                            }
+                            /* prayer tracker form design */
+                            #prayerForm {
+                                background: rgba(255, 255, 255, 0.9);
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+                            }
+
+                            .dark-mode #prayerForm {
+                                background: rgba(30, 30, 30, 0.9);
+                                box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+                            }
+
+                            #prayerForm label {
+                                font-weight: bold;
+                            }
+
+                            /* finish date and set today button */
+                            #finish_date {
+                                border-top-right-radius: 0;
+                                border-bottom-right-radius: 0;
+                            }
+
+                            #setToday {
+                                border-top-left-radius: 0;
+                                border-bottom-left-radius: 0;
+                            }
+
+                            #prayerForm .btn {
+                                white-space: nowrap;
+                            }
+
+                            @media (max-width: 768px) {
+                                #prayerForm .row {
+                                    flex-direction: column;
+                                }
+                                #prayerForm .input-group {
+                                    flex-direction: column;
+                                }
+                                #setToday {
+                                    border-radius: 5px; 
+                                    margin-top: 5px;
+                                }
+                            }
+                            .card {
+                                border-radius: 10px;
+                                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                            }
+                        

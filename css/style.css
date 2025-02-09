@@ -1,0 +1,113 @@
+/* Global styles */
+body {
+                              font-family: 'Arial', sans-serif;
+                              margin: 0;
+                              padding: 0;
+                              background: #f5f5f5;
+                              color: #333;
+                              line-height: 1.6;
+                          }
+                          
+                          h1, h2, h3 {
+                              color: #333;
+                              margin-bottom: 20px;
+                          }
+                          
+                          /* Navbar styles */
+                          .navbar {
+                              list-style: none;
+                              background-color: rgba(0, 0, 0, 0.6);
+                              position: fixed;
+                              top: 0;
+                              width: 100%;
+                              padding: 15px 0;
+                              margin: 0;
+                              text-align: center;
+                          }
+                          
+                          .navbar li {
+                              display: inline;
+                              margin: 0 20px;
+                          }
+                          
+                          .navbar a {
+                              color: #fff;
+                              text-decoration: none;
+                              font-size: 1.2em;
+                              padding: 10px 15px;
+                              transition: background-color 0.3s ease;
+                          }
+                          
+                          .navbar a:hover {
+                              background-color: #1abc9c;
+                              border-radius: 5px;
+                          }
+                          
+                          /* Hero Section */
+                          .hero {
+                              background-color: #1abc9c;
+                              color: #fff;
+                              padding: 100px 20px;
+                              text-align: center;
+                          }
+                          
+                          .hero h1 {
+                              font-size: 3em;
+                              margin: 0;
+                          }
+                          
+                          .hero p {
+                              font-size: 1.2em;
+                          }
+                          
+                          /* Card Section */
+                          .card {
+                              background: #fff;
+                              padding: 20px;
+                              margin: 20px 0;
+                              border-radius: 8px;
+                              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                              text-align: center;
+                          }
+                          
+                          .card h3 {
+                              font-size: 1.5em;
+                          }
+                          
+                          .card a {
+                              color: #1abc9c;
+                              text-decoration: none;
+                          }
+                          
+                          /* Footer styles */
+                          footer {
+                              text-align: center;
+                              background-color: #333;
+                              color: #fff;
+                              padding: 10px 0;
+                              font-size: 0.9em;
+                          }
+                          
+                          /* Contact and About Page Styles */
+                          .contact-section, .about-section {
+                              padding: 40px 20px;
+                              max-width: 900px;
+                              margin: 0 auto;
+                              background: #fff;
+                              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                              border-radius: 8px;
+                          }
+                          
+                          ul {
+                              list-style: none;
+                              padding-left: 0;
+                          }
+                          
+                          ul li {
+                              margin: 10px 0;
+                          }
+                          
+                          ul li a {
+                              color: #1abc9c;
+                          }
+                          

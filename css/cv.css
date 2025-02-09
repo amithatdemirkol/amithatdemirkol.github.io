@@ -1,0 +1,57 @@
+.cv {
+                              font-family: 'Roboto', Arial, sans-serif;
+                              background: #fff;
+                              padding: 20px;
+                              border-radius: 8px;
+                              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                              margin: 20px auto;
+                              max-width: 800px;
+                              line-height: 1.8;
+                          }
+                          
+                          .cv h2 {
+                              font-size: 1.8em;
+                              color: #2c3e50;
+                              margin-bottom: 10px;
+                          }
+                          
+                          .cv h3 {
+                              font-size: 1.4em;
+                              color: #1abc9c;
+                              margin-top: 20px;
+                              margin-bottom: 10px;
+                          }
+                          
+                          .cv p {
+                              color: #555;
+                              margin: 5px 0;
+                          }
+                          
+                          .cv ul {
+                              padding-left: 20px;
+                              margin: 10px 0;
+                          }
+                          
+                          .cv ul li {
+                              margin-bottom: 8px;
+                              list-style: circle;
+                          }
+                          
+                          .cv ul li ul {
+                              padding-left: 20px;
+                              list-style: square;
+                          }
+                          
+                          .cv a {
+                              color: #1abc9c;
+                              text-decoration: none;
+                          }
+                          
+                          .cv a:hover {
+                              text-decoration: underline;
+                          }
+                          
+                          .cv section {
+                              margin-bottom: 20px;
+                          }
+                          
